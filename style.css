@@ -1,0 +1,96 @@
+html,body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+main{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	opacity: 0.7;
+}
+.menubar{
+	position: fixed;
+	height: 100%;
+	width: 25%;
+	background-color: #99ff66;
+	float: left;
+}
+.menu{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	list-style-type: none;
+	color: #fff;
+}
+.menu a{
+	text-decoration: none;
+	color: #000;
+}
+.form{
+	height: 100%;
+	width: 75%;
+	background-image: url(background1.png);
+	background-size: cover;
+	float: right;
+	padding-top: 70px;
+}
+ .logo{
+	 height: 100px;
+	 width: 100px;
+	 margin: auto;
+	 background-image: url(logo.png);
+	 background-size: cover;
+	 border-radius: 50%;
+ }
+ #container{
+    margin: 30px auto;
+    max-width: 450px;
+    padding: 20px;
+}
+ 
+ 
+.form h1 {
+    text-align: center;
+}
+
+.form .form-group {
+	 margin-top: 18px;
+ 
+    
+}
+
+.form  .front-group label {
+	display: block;
+    color: #3498bd;
+    
+}
+
+.form .form-group input {
+   width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+	float:right;
+	font-weight: bold;
+}
+
+.form button {
+    display: block;
+    width: 40%;
+    padding: 4px;
+    margin-top: 6px;
+    background: #27ae60;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.form button:hover {
+        background: #e74c3c;
+}
+
+
